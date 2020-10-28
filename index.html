@@ -7,6 +7,7 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css" integrity="sha384-DhY6onE6f3zzKbjUPRc2hOzGAdEf4/Dz+WJwBvEYL/lkkIsI3ihufq9hk9K4lVoK" crossorigin="anonymous">
+    <link rel="stylesheet" href="vendor/fontawesome-free-5.15.1-web/css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
     <title>Rick y Morty</title>
   </head>
@@ -33,6 +34,28 @@
           </div>
         </div>
       </div>
+      <div class="row modal-molde" >
+        <div class="col-sm-12">
+            <div class="row">
+                <div class="col-sm-12 text-center">
+                  <img src="" class="imagen-personaje-modal img-fluid">
+                </div>
+            </div>
+            <div class="row mt-3">
+              <h3 class="col-sm-4">Nombre</h3>
+              <h3 class="offset-sm-2 col-sm-6 nombre-personaje-h3"></h3>
+            </div>
+            <div class="row mt-2">
+              <h3 class="col-sm-4">Genero</h3>
+              <h3 class="offset-sm-2 col-sm-6 genero-personaje-h3"></h3>
+            </div>
+            <div class="row mt-2">
+              <h3 class="col-sm-4">Estado</h3>
+              <span class="offset-sm-2 col-sm-6 estado-personaje-sp">
+              </span>
+            </div>
+        </div>
+      </div>
 
     </section>
     <!-- Optional JavaScript; choose one of the two! -->
@@ -40,6 +63,7 @@
     <!-- Option 1: Bootstrap Bundle with Popper.js -->
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/js/bootstrap.bundle.min.js" integrity="sha384-BOsAfwzjNJHrJ8cZidOg56tcQWfp6y72vEJ8xQ9w6Quywb24iOsW913URv1IS4GD" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
     <script src="js/index.js"></script>
   </body>
 </html>
